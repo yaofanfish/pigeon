@@ -1,0 +1,15 @@
+{
+"storage": "/home/ff3/git/pigeon/dotfiles/idk",
+"root": "~",
+"stored": [
+	".config/plasma-localerc", ".config/plasma-org.kde.plasma.desktop-appletsrc", ".config/plasma-welcomerc", ".config/plasmanotifyrc", ".config/plasmarc", ".config/plasmashellrc",
+	".config/kwinrc",
+	".config/kwinoutputconfig.json",
+	".config/kded5rc", ".config/kded6rc", ".config/kdeglobals", ".config/kdedefaults"
+],
+"rules": {
+	".config": "^(kde|plasma|kwin).+?$",
+	".local/share": "^(kde|plasma|kwin).+?$",
+	".local/state": "^(kde|plasma|kwin).+?$"
+}
+}
