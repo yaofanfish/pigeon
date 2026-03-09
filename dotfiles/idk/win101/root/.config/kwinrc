@@ -7,6 +7,9 @@ Id_5=13b17618-6dde-41f6-b68b-766ea9554fb7
 Number=5
 Rows=1
 
+[Effect-overview]
+BorderActivate=9
+
 [Effect-translucency]
 MoveResize=78
 
@@ -52,3 +55,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 
 [Xwayland]
 Scale=1
+
+[org.kde.kdecoration2]
+library=org.kde.kwin.aurorae.v2
+theme=__aurorae__svg__We10XOS-dark

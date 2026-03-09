@@ -83,6 +83,8 @@ def ls(*v, **k):
 
 def cmd(argval, python=False, interact=False, *v, **k):
 #	print(argval)
+	if python:
+		return exec(' '.join(argval[0:]))
 	argval = argval + list(v) + [f"{i}={j}" for i, j in k.items()]
 	argv = [*argval[:1]]
 	for i in argval[1:]:
@@ -98,10 +100,7 @@ def cmd(argval, python=False, interact=False, *v, **k):
 				i = "\"" + i.replace('"', r'\"') + "\""
 			argv.append(i)
 #	print(argv)
-	if python:
-		exec(" ".join(argv[0:]))
-	else:
-		exec(f"{argv[0]}({','.join(argv[1:])})")
+	exec(f"{argv[0]}({','.join(argv[1:])})")
 	if interact:
 		code.interact(local=dict(globals(), **locals()))
 

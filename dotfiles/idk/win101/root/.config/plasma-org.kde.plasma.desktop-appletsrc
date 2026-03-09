@@ -18,11 +18,11 @@ wallpaperplugin=org.kde.image
 [Containments][1][General]
 changedPositions={"desktop:/burpsuite.desktop":["1920x1080","1","1"],"desktop:/firefox.desktop":["1920x1080","1","0"],"desktop:/org.kde.dolphin.desktop":["1920x1080","0","2"],"desktop:/org.kde.konsole.desktop":["1920x1080","0","0"],"desktop:/org.kde.plasma.emojier.desktop":["1920x1080","2","0"],"desktop:/org.stellarium.Stellarium.desktop":["1920x1080","3","0"],"desktop:/xterm.desktop":["1920x1080","0","1"]}
 lastResolution=1920x1080
-positions={"1920x1080":["4","17","desktop:/org.stellarium.Stellarium.desktop","3","0","desktop:/org.kde.plasma.emojier.desktop","2","0","desktop:/burpsuite.desktop","1","1","desktop:/firefox.desktop","1","0","desktop:/xterm.desktop","0","1","desktop:/org.kde.dolphin.desktop","0","2","desktop:/org.kde.konsole.desktop","0","0"]}
+positions={"1920x1080":["4","17","desktop:/org.stellarium.Stellarium.desktop","3","0","desktop:/org.kde.konsole.desktop","0","0","desktop:/xterm.desktop","0","1","desktop:/firefox.desktop","1","0","desktop:/org.kde.plasma.emojier.desktop","2","0","desktop:/burpsuite.desktop","1","1","desktop:/org.kde.dolphin.desktop","0","2"]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/ColdRipple/
+Image=file:///home/ff3/.local/share/wallpapers/We10XOS-dark/
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][2]
@@ -54,29 +54,58 @@ immutability=1
 plugin=org.kde.plasma.notes
 
 [Containments][2][Applets][29][Configuration]
-popupHeight=567
-popupWidth=588
+popupHeight=561
+popupWidth=580
 
 [Containments][2][Applets][29][Configuration][General]
-cursorPosition=3
+cursorPosition=0
 fontSize=10
 noteId=388fcd47-e478-4032-ad6a-1817a99699
-scrollY=18
 
 [Containments][2][Applets][3]
 immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
-popupHeight=533
-popupWidth=673
+popupHeight=525
+popupWidth=665
+
+[Containments][2][Applets][3][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
 
-[Containments][2][Applets][4]
+[Containments][2][Applets][30]
 immutability=1
-plugin=org.kde.plasma.pager
+plugin=org.kde.plasma.activitypager
+
+[Containments][2][Applets][31]
+immutability=1
+plugin=org.kde.milou
+
+[Containments][2][Applets][31][Configuration]
+popupHeight=400
+popupWidth=560
+
+[Containments][2][Applets][31][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
+[Containments][2][Applets][32]
+immutability=1
+plugin=org.kde.plasma.kickerdash
+
+[Containments][2][Applets][32][Configuration][General]
+favoritesPortedToKAstats=true
+
+[Containments][2][Applets][33]
+immutability=1
+plugin=org.kde.plasma.kickerdash
+
+[Containments][2][Applets][33][Configuration][General]
+favoritesPortedToKAstats=true
 
 [Containments][2][Applets][5]
 immutability=1
@@ -177,8 +206,8 @@ extraItems=org.kde.plasma.vault,org.kde.plasma.keyboardlayout,org.kde.plasma.med
 knownItems=org.kde.plasma.vault,org.kde.plasma.keyboardlayout,org.kde.plasma.mediacontroller,org.kde.plasma.manage-inputmethod,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager,org.kde.plasma.weather,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.kscreen,org.kde.plasma.brightness,org.kde.plasma.volume
 
 [Containments][2][General]
-AppletOrder=3;4;6;5;7;21;29;22
+AppletOrder=3;31;30;6;5;7;21;29;22;32;33
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/org.kde.konsole.desktop,0,8d40b643-da58-4e9b-ae73-3b8e76374b9c,desktop:/org.stellarium.Stellarium.desktop,0,8d40b643-da58-4e9b-ae73-3b8e76374b9c,desktop:/burpsuite.desktop,0,8d40b643-da58-4e9b-ae73-3b8e76374b9c,desktop:/xterm.desktop,0,8d40b643-da58-4e9b-ae73-3b8e76374b9c,desktop:/org.kde.dolphin.desktop,0,8d40b643-da58-4e9b-ae73-3b8e76374b9c,desktop:/org.kde.plasma.emojier.desktop,0,8d40b643-da58-4e9b-ae73-3b8e76374b9c,desktop:/firefox.desktop,0,8d40b643-da58-4e9b-ae73-3b8e76374b9c
+screenMapping=desktop:/burpsuite.desktop,0,8d40b643-da58-4e9b-ae73-3b8e76374b9c,desktop:/org.kde.dolphin.desktop,0,8d40b643-da58-4e9b-ae73-3b8e76374b9c,desktop:/xterm.desktop,0,8d40b643-da58-4e9b-ae73-3b8e76374b9c,desktop:/firefox.desktop,0,8d40b643-da58-4e9b-ae73-3b8e76374b9c,desktop:/org.kde.konsole.desktop,0,8d40b643-da58-4e9b-ae73-3b8e76374b9c,desktop:/org.stellarium.Stellarium.desktop,0,8d40b643-da58-4e9b-ae73-3b8e76374b9c,desktop:/org.kde.plasma.emojier.desktop,0,8d40b643-da58-4e9b-ae73-3b8e76374b9c

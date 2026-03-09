@@ -68,8 +68,8 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
-popupHeight=533
-popupWidth=673
+popupHeight=526
+popupWidth=665
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true

@@ -1,0 +1,11 @@
+[0]
+appId=org.kde.konsole.desktop
+
+[1]
+appId=org.kde.kate.desktop
+
+[2]
+appId=org.kde.discover.desktop
+
+[3]
+appId=systemsettings.desktop

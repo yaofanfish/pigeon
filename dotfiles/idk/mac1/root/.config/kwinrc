@@ -2,9 +2,13 @@
 Id_1=f669e790-5adc-4b06-8a86-c906f91f1b98
 Id_2=c49713a6-bcf2-47d3-89e5-f1de5f76dab2
 Id_3=73e9ee50-92eb-4ada-8020-ac2ba5bef744
-Id_4=d6c6cf4f-772c-4529-82b0-db02ada25eb8
-Id_5=13b17618-6dde-41f6-b68b-766ea9554fb7
-Number=5
+Id_4=b8f38586-a1bc-4416-bf91-7298abe0c993
+Id_5=d6c6cf4f-772c-4529-82b0-db02ada25eb8
+Id_6=13b17618-6dde-41f6-b68b-766ea9554fb7
+Name_4=Welcome — Kate
+Name_5=Desktop 4
+Name_6=Desktop 5
+Number=6
 Rows=1
 
 [Effect-translucency]
@@ -12,20 +16,28 @@ MoveResize=78
 
 [Effect-wobblywindows]
 AdvancedMode=true
-Drag=62
-MoveFactor=4
-Stiffness=6
+Drag=65
+MoveFactor=22
+Stiffness=9
 
 [NightColor]
 Active=true
 Mode=Constant
 
 [Plugins]
+blurEnabled=true
 closeallEnabled=false
 cubeEnabled=true
+macsimize6Enabled=true
+magiclampEnabled=true
 minimizeallEnabled=true
 mousemarkEnabled=true
+squashEnabled=false
 videowallEnabled=true
+wobblywindowsEnabled=true
+
+[TabBox]
+LayoutName=big_icons
 
 [Tiling][13b17618-6dde-41f6-b68b-766ea9554fb7][21decd60-4063-4cb8-84db-956054ec556a]
 padding=4
@@ -35,6 +47,10 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][73e9ee50-92eb-4ada-8020-ac2ba5bef744][21decd60-4063-4cb8-84db-956054ec556a]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][b8f38586-a1bc-4416-bf91-7298abe0c993][21decd60-4063-4cb8-84db-956054ec556a]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -52,3 +68,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 
 [Xwayland]
 Scale=1
+
+[org.kde.kdecoration2]
+library=org.kde.kwin.aurorae.v2
+theme=__aurorae__svg__WhiteSur-dark
